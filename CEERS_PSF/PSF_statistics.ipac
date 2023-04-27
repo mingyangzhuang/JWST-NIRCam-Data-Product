@@ -1,7 +1,8 @@
-\ Nstar is the number of stars used for PSF construction
+\ Nstar is the number of stars used for PSF construction.
+\ PSF images have a pixel scale of 15 has/pixel, which oversamples the original pixel scale by a factor of 2.
 | BAND|Pointings|Module|WIN_SIZE|    FWHM|     q|Nstar|
 | char|     char|  char|    long|  double|double| long|
-|     |         |      |        |  arcsec|      |     |
+|     |         |      |   pixel|  arcsec|      |     |
 | null|     null|  null|    null|    null|  null| null|
  F115W       1+2      A        7 5.78e-02  0.969    18
  F115W       1+2      B        7 5.90e-02  0.969    15
